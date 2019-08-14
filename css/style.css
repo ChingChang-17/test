@@ -1,0 +1,308 @@
+@font-face {
+src: url('AvenirNextCyr-Thin.eot');
+src: url('AvenirNextCyr-Thin.eot?#iefix') format('embedded-opentype'),
+url('AvenirNextCyr-Thin.woff') format('woff'),
+url('AvenirNextCyr-Thin.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+header {
+	padding-top: 2vh;
+	padding-bottom: 2vh;
+}
+
+header a {
+	text-decoration: none;
+	margin-right: 2vw;
+	font-size: 13px;
+	font-weight: bold;
+	color: #c5c5c5;
+}
+
+header a:hover {
+	transition: 0.2s;
+	color: #1abb9c;
+}
+
+.nav {
+	margin-top: 1.5vh;
+	display: flex;
+	justify-content: center;
+}
+
+#logo-text {
+	color: #cacaca;
+}
+
+ul.list-inline a {
+	display: inline-block;
+}
+
+#main {
+	height: 70vh;
+	background-image: url('https://wallbox.ru/wallpapers/main/201133/goroda-mosty-peyzazhi-a509285.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: #8f8f8f;
+	box-shadow: 0 4px 0 0 rgba(0,0,0,0.5) inset;
+	padding-top: 17vh;
+	color: #fff;
+}
+
+#main h1 {
+	font-size: 80px;
+	margin-bottom: 4vh;
+}
+
+#main h2 {
+	font-size: 50px;
+	font-weight: 100;
+}
+
+#main-img-block {
+	margin-top: 5vh;
+}
+
+#main-img-block img {
+	margin-right: 1vw;
+}
+
+.bg-grey-img {
+	background-color: rgba(0,0,0,0.5);
+	padding: 1vh;
+}
+
+.bg-grey-img:hover {
+	transition: 0.2s;
+	background-color: rgba(0,0,0,1);
+}
+
+.bg-grey {
+	background-color: rgba(0,0,0,0.5);
+	padding: 1vh;
+}
+
+.container-title {
+	background-color: #1abc9c;
+	padding-right: 10vw;
+  	padding-left: 10vw;
+  	margin-right: auto;
+  	margin-left: auto;
+  	height: 10vh;
+  	color: #fff;
+}
+
+#portrait {
+	border-radius: 100%;
+	margin-right: 3vw;
+	width: 20vw;
+	height: 20vw;
+	background-image: url(../img/portrait.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: flex;
+	float: left;
+}
+
+.block {
+	margin-top: 8vh;
+}
+
+.block h5 {
+	margin-top: 5vh;
+	font-size: 22px;
+	font-weight: 100;
+}
+
+.block p {
+	margin-top: 5vh;
+	font-size: 15px;
+}
+
+.card {
+	margin-top: 6vh;
+}
+
+.card p {
+	margin-top: 3vh;
+}
+
+#posts {
+	background-color: #f0f0f0;
+	padding-bottom: 10vh;
+}
+
+.img-post {
+	position: relative;
+	width: 100%;
+	height: 40vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#img-post-1 {
+	background-image: url('https://www.sunhome.ru/i/wallpapers/125/makro-foto-kapli.orig.jpg');
+}
+
+#img-post-2 {
+	background-image: url('https://photoprocenter.ru/upload/Products/modelId7883/50f01280f40ba.jpeg');
+}
+
+#img-post-3 {
+	background-image: url('https://wallbox.ru/resize/1600x1200/wallpapers/main/201628/9e37d43f2f31641.jpg');
+}
+
+#img-post-4 {
+	background-image: url('https://wallbox.ru/wallpapers/main/201526/71488e0da1e2d02.jpg');
+}
+
+.wrapper {
+	margin-top: 0;
+	padding-top: 0;
+	position: relative;
+	width: 100%;
+	box-shadow: 0 4px 0 #e4e4e4;
+}
+
+.wrapper h6, h4, p {
+	margin: 0;
+	padding-left: 2vw;
+	padding-right: 2vw;
+}
+
+.wrapper h6 {
+	padding-top: 4vh;
+	padding-bottom: 4vh;
+}
+
+.wrapper h4 {
+	padding-top: 4vh;
+	padding-bottom: 2vh;
+}
+
+.wrapper p {
+	padding-bottom: 3vh;
+}
+
+.wrapper-h6-bg {
+	background-color: #f9f9f9;
+}
+
+.wrapper-h4-bg {
+	background-color: #fff;
+}
+
+#touch {
+	background-image: url('../img/bg-contacts.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+#touch .container {
+	padding-top: 10vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#touch input {
+	margin-top: 2vh;
+	position: relative;
+	width: 95%;
+	color: #a0a0a0;
+	background-color: rgba(0,0,0,0.5);
+	border: none;
+}
+
+.input-1, .input-2, .input-3 {
+	height: 6vh;
+}
+
+.input-4 {
+	
+	height: 30vh;
+}
+
+.touch-btn-block {
+	padding-top: -5vh;
+	margin-left: 0.1vw;
+}
+
+#touch h5 {
+	color: #fff;
+}
+
+#footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #b2c2cf;
+	height: 30vh;
+}
+
+#footer img {
+	margin: 4vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.avenir {
+	font-family: 'Avenir Next Cyr Thin',sans-serif;
+}
+
+.lato {
+	font-family: 'Lato', sans-serif;
+}
+
+
+.line-medium {
+	line-height: 1.5;
+}
+
+.line-high {
+	line-height: 2;
+}
+
+button {
+	margin-top: 6vh;
+	margin-bottom: 8vh;
+	padding-top: 4px;
+	color: #fff;
+	width: 10vw;
+	height: 7vh;
+	outline: 0 !important;
+	background-color: #3f8dbf;
+	border: none;
+	border-radius: 3px;
+	box-shadow: 0 4px 0 #3678a3;
+}
+
+button span {
+	margin-left: 0.8vw;
+}
+
+button:hover {
+	transition: .2s;
+	box-shadow: 0 4px 0 #2f688e;
+	background-color: #377aa5;
+}
+
+
+.font-grey {
+	color: #b7b7b6;
+}
